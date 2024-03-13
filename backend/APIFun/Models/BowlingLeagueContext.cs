@@ -88,7 +88,7 @@ public partial class BowlingLeagueContext : DbContext
                 .HasColumnType("smallint");
             entity.Property(e => e.WonGame).HasColumnType("bit");
 
-            entity.HasOne(d => d.Bowler).WithMany(p => p.BowlerScores)
+            entity.HasOne(d => d.Bowler).WithMany()
                 .HasForeignKey(d => d.BowlerId)
                 .OnDelete(DeleteBehavior.ClientSetNull);
         });

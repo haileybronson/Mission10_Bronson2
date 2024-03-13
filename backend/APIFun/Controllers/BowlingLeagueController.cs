@@ -14,14 +14,6 @@ namespace APIFun.Controllers
             _bowlerRepository = temp;
         }
 
-        [HttpGet]
-        public IEnumerable<Bowler> Get()
-        {
-            var BowlerData = _bowlerRepository.Bowlers.ToArray();
-
-            return BowlerData;
-        }
-
         [HttpGet("marlins-sharks")]
         public IActionResult GetBowlersForMarlinsAndSharks()
         {

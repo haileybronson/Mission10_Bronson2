@@ -253,3 +253,14 @@ C:/Users/haileybronson/source/repos/Mission10_Bronson2/backend/APIFun/bin/Debug/
 /Users/haileybronson/Desktop/413/Mission10_Bronson2/backend/APIFun/obj/Debug/net8.0/APIFun.pdb
 /Users/haileybronson/Desktop/413/Mission10_Bronson2/backend/APIFun/obj/Debug/net8.0/APIFun.genruntimeconfig.cache
 /Users/haileybronson/Desktop/413/Mission10_Bronson2/backend/APIFun/obj/Debug/net8.0/ref/APIFun.dll
+C:\Users\haileybronson\source\repos\haileybronson\Mission10_Bronson2\backend\APIFun\obj\Debug\net8.0\APIFun.csproj.AssemblyReference.cache
+C:\Users\haileybronson\source\repos\haileybronson\Mission10_Bronson2\backend\APIFun\obj\Debug\net8.0\APIFun.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haileybronson\source\repos\haileybronson\Mission10_Bronson2\backend\APIFun\obj\Debug\net8.0\APIFun.AssemblyInfoInputs.cache
+C:\Users\haileybronson\source\repos\haileybronson\Mission10_Bronson2\backend\APIFun\obj\Debug\net8.0\APIFun.AssemblyInfo.cs
+C:\Users\haileybronson\source\repos\haileybronson\Mission10_Bronson2\backend\APIFun\obj\Debug\net8.0\APIFun.csproj.CoreCompileInputs.cache
+C:\Users\haileybronson\source\repos\haileybronson\Mission10_Bronson2\backend\APIFun\obj\Debug\net8.0\APIFun.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\haileybronson\source\repos\haileybronson\Mission10_Bronson2\backend\APIFun\obj\Debug\net8.0\APIFun.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\haileybronson\source\repos\haileybronson\Mission10_Bronson2\backend\APIFun\obj\Debug\net8.0\APIFun.sourcelink.json
+C:\Users\haileybronson\source\repos\haileybronson\Mission10_Bronson2\backend\APIFun\obj\Debug\net8.0\APIFun.dll
+C:\Users\haileybronson\source\repos\haileybronson\Mission10_Bronson2\backend\APIFun\obj\Debug\net8.0\refint\APIFun.dll
+C:\Users\haileybronson\source\repos\haileybronson\Mission10_Bronson2\backend\APIFun\obj\Debug\net8.0\APIFun.pdb

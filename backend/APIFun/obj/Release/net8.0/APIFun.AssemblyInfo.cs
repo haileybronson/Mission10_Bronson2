@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIFun")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+552b90658e0b70a83f5bc9eadb6e3f39e664042f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d625f2dbef35d690e0c409847ac7fb45cecb240")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIFun")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIFun")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

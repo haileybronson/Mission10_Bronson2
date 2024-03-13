@@ -1,4 +1,6 @@
-﻿namespace APIFun.Models
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace APIFun.Models
 {
     public class EFBowlerRepository: IBowlerRepository
     {
@@ -8,9 +10,6 @@
         {
             _context = context;
         }
-
-        //do I keep this 
-        public IEnumerable<Bowler> Bowlers => _context.Bowlers;
 
         public IEnumerable<Bowler> GetBowlersForMarlinsAndSharks()
         {

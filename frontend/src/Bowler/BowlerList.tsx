@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Bowler } from '../types/Bowler';
+import { Team } from '../types/Team';
 
 function BowlerList() {
   const [bowlerData, setBowlerData] = useState<Bowler[]>([]);
@@ -7,7 +8,9 @@ function BowlerList() {
   useEffect(() => {
     //WEBSITE IS INCORRECT
     const fetchBowlerData = async () => {
-      const rsp = await fetch('https://localhost:44301/bowlingleague');
+      const rsp = await fetch(
+        'https://localhost:44301/bowlingleague/marlins-sharks',
+      );
       const f = await rsp.json();
       setBowlerData(f);
     };
@@ -29,21 +32,20 @@ function BowlerList() {
             <th>State</th>
             <th>Zip</th>
             <th>Phone Number</th>
-            <th>Team ID</th>
           </tr>
         </thead>
         <tbody>
           {bowlerData.map((f) => (
             <tr key={f.bowlerId}>
-              <td>{f.bowlerLastName}</td>
-              <td>{f.bowlerFirstName}</td>
-              <td>{f.bowlerMiddleInit}</td>
+              <td>
+                {f.bowlerFirstName + +f.bowlerMiddleInit + f.bowlerLastName}
+              </td>
+              <td>{f.team?.teamName}</td>
               <td>{f.bowlerAddress}</td>
               <td>{f.bowlerCity}</td>
               <td>{f.bowlerState}</td>
               <td>{f.bowlerZip}</td>
               <td>{f.bowlerPhoneNumber}</td>
-              <td>{f.teamId}</td>
             </tr>
           ))}
         </tbody>

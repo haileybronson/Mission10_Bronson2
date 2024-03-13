@@ -21,5 +21,12 @@ namespace APIFun.Controllers
 
             return BowlerData;
         }
+
+        [HttpGet("marlins-sharks")]
+        public IActionResult GetBowlersForMarlinsAndSharks()
+        {
+            var bowlers = _bowlerRepository.GetBowlersForMarlinsAndSharks();
+            return Ok(bowlers);
+        }
     }
 }

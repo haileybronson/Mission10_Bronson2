@@ -7,7 +7,7 @@ function BowlerList() {
   useEffect(() => {
     //WEBSITE IS INCORRECT
     const fetchBowlerData = async () => {
-      const rsp = await fetch('http://localhost:3000/Bowler');
+      const rsp = await fetch('https://localhost:44301/bowlingleague');
       const f = await rsp.json();
       setBowlerData(f);
     };
